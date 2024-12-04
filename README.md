@@ -1,8 +1,8 @@
 # Temperature Converter
 
-*This program helps convert the temperature between Fahrenheit and Celsius.*
+This program helps convert the temperature between Fahrenheit and Celsius.
 
-### Technologies
+## Technologies
 
 * HTML
 * Bootstrap CSS framework
