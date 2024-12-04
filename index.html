@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="container">
+      <h1 class="display-2 text-center fw-bold text-uppercase">Temperature Converter</h1>
+    </header>
+    <main class="container">
+      <div class="text-center">
+        <p>
+          <span class="fw-bolder text-uppercase">Fahrenheit</span> to
+          <span class="fw-bolder text-uppercase">Celsius</span>
+        </p>
+        <form action="somefile.php" method="post" id="convert" class="d-inline-block">
+          <input
+            type="text"
+            name="temperature"
+            id="temperature"
+            class="form-control"
+            placeholder="Enter Temperature Here"
+          /><br />
+          <button
+            type="submit"
+            name="converts"
+            onclick="validate()"
+            class="btn btn-primary"
+          >
+            Convert
+          </button>
+        </form>
+      </div>
+      <div id="result" class="bg-primary-outline mt-2 rounded p-1 d-block text-center">
+        <h2 class="invisible">Result</h2>
+      </div>
+
+      <p class="directions text-center" id="directions">
+        Press the 'K' key to switch to Fahrenheit temperature, Press 'M' key to
+        switch to Celsius temperature
+      </p>
+      <a
+        href="https://github.com/kayongo-nicholas/temperature-converter"
+        target="_blank"
+      >
+        View on GitHub
+      </a>
+    </main>
+    <footer class="container">
+      <p class="text-center">Created by Kayongo Nicholas Crystal</p>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
