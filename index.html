@@ -15,10 +15,18 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Jaro:opsz@6..72&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body style="font-family: Space Grotesk; background-color: cadetblue;">
     <header class="container">
-      <h1 class="display-2 text-center fw-bold text-uppercase">Temperature Converter</h1>
+      <h1 class="display-2 text-center fw-bold text-uppercase">
+        Temperature Converter
+      </h1>
     </header>
     <main class="container">
       <div class="text-center">
@@ -26,7 +34,12 @@
           <span class="fw-bolder text-uppercase">Fahrenheit</span> to
           <span class="fw-bolder text-uppercase">Celsius</span>
         </p>
-        <form action="somefile.php" method="post" id="convert" class="d-inline-block">
+        <form
+          action="somefile.php"
+          method="post"
+          id="convert"
+          class="d-inline-block"
+        >
           <input
             type="text"
             name="temperature"
